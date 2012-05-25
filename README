@@ -1,0 +1,6 @@
+erws
+====
+
+Example of using cowboy to handle websocket connections. This is the
+sourcecode for this article: http://erlang.org.ar/WebsocketsConCowboy
+
