@@ -12,7 +12,7 @@
 start(_StartType, _StartArgs) ->
     %% {Host, list({Path, Handler, Opts})}
     Dispatch = [{'_', [
-        {'_', erws_dispatcher, []}
+        {'_', erws_handler, []}
     ]}],
     %% Name, NbAcceptors, Transport, TransOpts, Protocol, ProtoOpts
     cowboy:start_listener(ami_ws_dispatcher, 100,

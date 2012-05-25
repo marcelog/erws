@@ -1,6 +1,4 @@
-%% Feel free to use, reuse and abuse the code in this file.
-
--module(erws_dispatcher).
+-module(erws_handler).
 -behaviour(cowboy_http_handler).
 -behaviour(cowboy_http_websocket_handler).
 -export([init/3, handle/2, terminate/2]).
