@@ -4,3 +4,5 @@ erws
 Example of using cowboy to handle websocket connections. This is the
 sourcecode for this article: http://erlang.org.ar/WebsocketsConCowboy
 
+You can find the english version here:
+http://marcelog.github.com/articles/erlang_websocket_server_cowboy_tutorial.html
