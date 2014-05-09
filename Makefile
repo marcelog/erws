@@ -19,6 +19,9 @@ clean:
 run:
 	rel/${NAME}/bin/${NAME} start
 
+stop:
+	rel/${NAME}/bin/${NAME} stop
+
 runconsole:
 	rel/${NAME}/bin/${NAME} console
 
