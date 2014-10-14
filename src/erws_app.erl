@@ -16,7 +16,7 @@ start(_StartType, _StartArgs) ->
         {"/websocket", erws_handler, []}
       ]}
     ]),
-    {ok, _} = cowboy:start_http(http, 100, [{port, 8080}],
+    {ok, _} = cowboy:start_http(http, 100, [{port, 10100}],
         [{env, [{dispatch, Dispatch}]}]),
       erws_sup:start_link().
 
